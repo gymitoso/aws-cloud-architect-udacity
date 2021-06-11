@@ -1,0 +1,30 @@
+1. Minimum RTO for a single AZ outage
+
+RTO is the time to switch to a standby replica in another Availability Zone.
+Which can take from 60 to 120 seconds.
+
+An minimum RTO of 60 seconds.
+
+Reference: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
+
+2. Minimum RTO for a single region outage
+
+00:00 - Problem happens (0 minutes)
+00:05 - An amount of time passes before an alert triggers (5 minutes)
+00:06 - Alert triggers on-all staff (1 minute)
+00:16 - On-call staff may need to get out of bed, get to computer, log in (10 minutes)
+00:31 - Promote existing replica to master (15 minutes ~ can take several minutes or longer to complete, depending on the size of the read replica)
+00:46 - Reconfigure the application to the new database. (5 minutes)
+
+An minimum RTO of 1 hour would be reasonable.
+
+Reference: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html
+
+3. Minimum RPO for a single AZ outage
+
+RPO is 0 as we have a separate synchronous copy of the volume being maintained in a separate data center (AZ).
+
+4. Minimum RPO for a single region outage
+
+We should consider a minimum RPO of 5 minutes (time to save the transaction logs on S3), because we can't calculate the replica lag,
+which is the amount of time that the replica is behind the source database.
