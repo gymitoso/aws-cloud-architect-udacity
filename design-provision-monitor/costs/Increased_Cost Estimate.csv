@@ -1,14 +1,14 @@
 ﻿Region,Service,Monthly,First 12 months total,Currency,Configuration summary
-US East (Ohio),Amazon EC2,1192,14304.00,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m4.xlarge)"
-US East (Ohio),Amazon EC2,1145.28,13743.36,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m5.xlarge)"
-US East (Ohio),Amazon RDS for PostgreSQL,8381.16,100573.92,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (200 GB per month), Nodes (1), Instance Type (db.m5.16xlarge), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (200 GB)"
-US East (Ohio),S3 Standard,120.37,1444.44,USD,S3 Standard storage (1000 GB per month)
-US East (Ohio),Application Load Balancer,2352.43,28229.16,USD,Number of Application Load Balancers (1)
-US East (Ohio),Network Load Balancer,1549.43,18593.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (350 GB per hour), Average number of new TCP connections (10000 per second), Average TCP connection duration (2 seconds)"
-US East (Ohio),Amazon Route 53,548.8,6585.60,USD,"Hosted Zones (1), Number of Elastic Network Interfaces (6)"
-US East (Ohio),Amazon Virtual Private Cloud (VPC),987.3,11847.60,USD,Number of NAT Gateways (2)
-US East (Ohio),Amazon CloudWatch,163.10000000000002,1957.20,USD,"Number of Metrics (includes detailed and custom metrics) (15), Standard Logs: Data Ingested (200 GB), Number of Custom/Cross-account events (200000), Number of Dashboards (6), Number of composite alarms (5), Number of Standard Resolution Alarm Metrics (120), Logs Delivered to S3: Data Ingested (100 GB)"
-US East (Ohio),Amazon RDS for PostgreSQL,2102.04,25224.48,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (200 GB per month), Nodes (1), Instance Type (db.m5.8xlarge), Deployment Option (Single-AZ), Pricing Model (OnDemand)"
+US East (N. Virginia),Amazon EC2,1192,14304.00,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m4.xlarge)"
+US East (N. Virginia),Amazon EC2,1145.28,13743.36,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m5.xlarge)"
+US East (N. Virginia),Amazon RDS for PostgreSQL,8381.16,100573.92,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (200 GB per month), Nodes (1), Instance Type (db.m5.16xlarge), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (200 GB)"
+US East (N. Virginia),S3 Standard,120.37,1444.44,USD,S3 Standard storage (1000 GB per month)
+US East (N. Virginia),Application Load Balancer,2352.43,28229.16,USD,Number of Application Load Balancers (1)
+US East (N. Virginia),Network Load Balancer,1549.43,18593.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (350 GB per hour), Average number of new TCP connections (10000 per second), Average TCP connection duration (2 seconds)"
+US East (N. Virginia),Amazon Route 53,548.8,6585.60,USD,"Hosted Zones (1), Number of Elastic Network Interfaces (6)"
+US East (N. Virginia),Amazon Virtual Private Cloud (VPC),987.3,11847.60,USD,Number of NAT Gateways (2)
+US East (N. Virginia),Amazon CloudWatch,163.10000000000002,1957.20,USD,"Number of Metrics (includes detailed and custom metrics) (15), Standard Logs: Data Ingested (200 GB), Number of Custom/Cross-account events (200000), Number of Dashboards (6), Number of composite alarms (5), Number of Standard Resolution Alarm Metrics (120), Logs Delivered to S3: Data Ingested (100 GB)"
+US East (N. Virginia),Amazon RDS for PostgreSQL,2102.04,25224.48,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (200 GB per month), Nodes (1), Instance Type (db.m5.8xlarge), Deployment Option (Single-AZ), Pricing Model (OnDemand)"
 ,,,,,
 Total,,18541.91,,USD,
 ,,,,,

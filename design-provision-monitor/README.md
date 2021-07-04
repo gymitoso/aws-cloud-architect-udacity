@@ -34,3 +34,14 @@ In this project, you will plan, design, provision, and monitor infrastructure in
   - S3 Storage
 
 - ./costs/\* - Infrastructure costs of project 1 schematic
+- ./terraform/\* - Terraform to Provision AWS Infrastructure
+
+  Exercise_1:
+
+  - AWS as the cloud provider
+  - Use an existing VPC ID
+  - Use an existing public subnet
+  - 4 AWS t2.micro EC2 instances named Udacity T2
+  - 2 m4.large EC2 instances named Udacity M4
+
+  Exercise_2: write the code to deploy an AWS Lambda Function
