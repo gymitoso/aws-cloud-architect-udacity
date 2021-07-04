@@ -1,0 +1,13 @@
+﻿Region,Service,Monthly,First 12 months total,Currency,Configuration summary
+US East (Ohio),Amazon EC2,318.68,3824.16,USD,"Operating system (Linux), Quantity (5), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t3.large)"
+US East (Ohio),Amazon EC2,365.4,4384.80,USD,"Operating system (Linux), Quantity (5), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m5.large)"
+US East (Ohio),Amazon RDS for PostgreSQL,2121.04,25452.48,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (200 GB per month), Nodes (1), Instance Type (db.m5.8xlarge), Deployment Option (Single-AZ), Pricing Model (OnDemand), Additional backup storage (200 GB)"
+US East (Ohio),S3 Standard,120.37,1444.44,USD,S3 Standard storage (1000 GB per month)
+US East (Ohio),Application Load Balancer,2352.43,28229.16,USD,Number of Application Load Balancers (1)
+US East (Ohio),Network Load Balancer,1111.43,13337.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (250 GB per hour), Average number of new TCP connections (10000 per second), Average TCP connection duration (2 seconds)"
+US East (Ohio),Amazon Route 53,366.3,4395.60,USD,"Hosted Zones (1), Number of Elastic Network Interfaces (4)"
+US East (Ohio),Amazon Virtual Private Cloud (VPC),493.65,5923.80,USD,Number of NAT Gateways (1)
+US East (Ohio),Amazon CloudWatch,65.55000000000001,786.60,USD,"Number of Metrics (includes detailed and custom metrics) (10), Standard Logs: Data Ingested (100 GB), Number of Custom/Cross-account events (100000), Number of Dashboards (4)"
+US East (Ohio),Amazon RDS for PostgreSQL,1062.52,12750.24,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (200 GB per month), Nodes (1), Instance Type (db.m5.4xlarge), Deployment Option (Single-AZ), Pricing Model (OnDemand)"
+,,,,,
+Total,,8377.37,,USD,

@@ -4,4 +4,33 @@ In this project, you will plan, design, provision, and monitor infrastructure in
 
 ## Folder Structure
 
-- ./schematics/\* - Project schematics
+- ./schematics/\* - Projects schematics
+
+  Project 1 requires the following AWS infrastructure and services:
+
+  - Infrastructure in the following regions: us-east-1
+  - Users and Client machines
+  - One VPC
+  - Two Availability Zones
+  - Four Subnets (2 Public, 2 Private)
+  - A NAT Gateway
+  - A CloudFront distribution with an S3 bucket
+  - Web servers in the Public Subnets sized according to your usage estimates
+  - Application Servers in the Private Subnets sized according to your usage estimates
+  - DB Servers in the Private Subnets
+  - Web Servers Load Balanced and Autoscaled
+  - Application Servers Load Balanced and Autoscaled
+  - A Master DB in AZ1 with a read replica in AZ2
+
+  Project 2 requires the following AWS infrastructure and services:
+
+  - A user and client machine
+  - AWS Route 53
+  - A CloudFront Distribution
+  - AWS Cognito
+  - AWS Lambda
+  - API Gateway
+  - DynamoDB
+  - S3 Storage
+
+- ./costs/\* - Infrastructure costs of project 1 schematic
