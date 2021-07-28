@@ -1,0 +1,13 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+On VPC configuration, all routes have DestinationCidrBlock defined as 0.0.0.0/0.
+With this configuration it is possible to send information to any IP in case there is a breach.
+
+# Poor practice 2
+The created IAM role have full access to s3 resources.
+This role should only have access to specific buckets and allow only necessary actions.
+
+# Poor practice 3
+All security groups have defined CidrIp (Egress and Ingress) as 0.0.0.0/0.
+With this configuration it is possible to communicate from/to any IP.

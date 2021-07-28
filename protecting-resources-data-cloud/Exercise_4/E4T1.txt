@@ -1,0 +1,8 @@
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+
+- Update security groups to block ssh connections from all IP's
+- Allow login only with key file
+
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+
+Updating InstanceRolePolicy-C3 to allow access only to S3BucketRecipesFree.
