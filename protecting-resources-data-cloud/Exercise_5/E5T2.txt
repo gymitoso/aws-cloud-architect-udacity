@@ -2,12 +2,36 @@
 
 ## Scan infrastructure as code templates
 
-### Example vulnerability
-
-##Scan AMI’s or containers for OS vulnerabilities
-
-### Example vulnerability
-
-##Scan an AWS environment for cloud configuration vulnerabilities
+Checkov: https://www.checkov.io/
+Accurics: https://www.accurics.com/products/accurics/
 
 ### Example vulnerability
+
+Network exposures: Ingress open to all IP's
+Unauthorized privileged escalations: Policies with full access (InstanceRolePolicy-C3)
+Compliance violations: S3 and EBS not encrypted
+
+## Scan AMI’s or containers for OS vulnerabilities
+
+Clair: https://github.com/quay/clair
+Dagda: https://github.com/eliasgranderubio/dagda/
+
+### Example vulnerability
+
+Old libraries and images can have many bugs and security vulnerabilities.
+Potential threats databases:
+
+- CVE: https://cve.mitre.org/
+- NVD: https://nvd.nist.gov/
+
+## Scan an AWS environment for cloud configuration vulnerabilities
+
+AWS Config: https://aws.amazon.com/config/
+Cloud Custodian: https://github.com/cloud-custodian/cloud-custodian
+
+### Example vulnerability
+
+Unsecured users:
+- Not enable MFA for users
+- No policy for passwords
+Public access for S3 Buckets
